@@ -1,0 +1,180 @@
+body {
+    background-image: url(./img/fundo.jpg);
+}
+
+.menu {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que as caixas se envolvam */
+}
+
+.caixa {
+    flex: 1 0 21%;
+    /* Faz com que as caixas ocupem cerca de 21% da largura do contêiner */
+    margin: 10px;
+    box-sizing: border-box;
+    /* Para incluir padding e bordas no cálculo da largura */
+}
+
+.imagem-menu {
+    width: 100%;
+    height: auto;
+}
+
+.botao-menu {
+    border-radius: 20px;
+    width: 100px;
+    margin: 20px auto;
+    display: block;
+}
+
+.caixa-topo {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: xx-large;
+    font-family: "Bodoni Moda", serif;
+}
+
+.titulo {
+    transform: translateY(50px);
+    padding-right: 19%;
+}
+
+.logo-marca {
+    max-width: 400px;
+    max-height: 200px;
+    transform: translateX(-50px);
+}
+
+.caveira-imagem {
+    max-width: 170px;
+    max-height: 170px;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+
+.caixa-conteudo {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.maquina-image {
+    max-width: 400px;
+    max-height: 500px;
+}
+
+.texto-conteudo {
+    font-size: x-large;
+    padding-bottom: 8%;
+    font-family: "Bodoni Moda", serif;
+}
+
+.texto-imagem {
+    color: #ffffff;
+}
+
+.imagem-menu {
+    max-height: 500px;
+}
+
+.extras {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.instagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orcamento {
+    font-size: x-large;
+    font-family: "Bodoni Moda", serif;
+}
+
+.logos-redes {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 70px;
+
+}
+
+.instagram-logo {
+    max-height: 100px;
+    max-width: 100px;
+    cursor: pointer;
+}
+
+.whatsapp-imagem {
+
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.caixa-arrobas {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    font-size: larger;
+}
+
+.arroba {
+    font-size: larger;
+    cursor: pointer;
+}
+
+.anamnise {
+
+    color: #ffffff;
+}
+
+
+
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
